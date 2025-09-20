@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "addition",
+            "request": "launch",
+            "mainClass": "addition",
+            "projectName": "java_8818b2a3"
+        },
+        {
+            "type": "java",
+            "name": "calci",
+            "request": "launch",
+            "mainClass": "calci",
+            "projectName": "java_8818b2a3"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java_8818b2a3"
+        },
+        {
+            "type": "java",
+            "name": "leapyearchecker",
+            "request": "launch",
+            "mainClass": "leapyearchecker",
+            "projectName": "java_8818b2a3"
+        },
+        {
+            "type": "java",
+            "name": "operator",
+            "request": "launch",
+            "mainClass": "operator",
+            "projectName": "java_8818b2a3"
+        },
+        {
+            "type": "java",
+            "name": "recipe",
+            "request": "launch",
+            "mainClass": "recipe",
+            "projectName": "java_8818b2a3"
+        }
+    ]
+}
