@@ -1,4 +1,4 @@
-package vsc.cohding.java.acp;
+package cohding.java.acp;
 
 import java.util.Scanner;
 
