@@ -8,6 +8,7 @@ public class prime {
 
         while (true) {
             int n = scn.nextInt();
+            scn.close();
             boolean prime = false;
 
             for (int div = 2; div + div <= n; div++) {

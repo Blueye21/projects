@@ -21,5 +21,6 @@ public class primegenerator {
                 System.out.println(n);
             }
         }
+        scn.close();
     }
 }
