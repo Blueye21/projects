@@ -1,4 +1,4 @@
-package cohding.java.d12;
+package java.d12;
 
 import java.util.Scanner;
 
