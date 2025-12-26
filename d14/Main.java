@@ -1,33 +1,24 @@
+package d14;
+
 public class Main {
+    public static void printl(String text) {
+        System.out.println(text);
+    }
     public static void main(String[] args) {
-        DataSet dataset = new DataSet();
-        dataset.add(10);
-        dataset.add(12);
-        dataset.add(14);
-        dataset.add(16);
-        dataset.add(18);
-        System.out.println("Standard deviation: " + dataset.getStandardDeviation());
+        Animal animal = new Animal("fish", 17);
+        Dog dog = new Dog("bailey", 3, "hound");
+        Cat cat = new Cat("hailey", 6, true);
 
-        DataSet[] datasets = new DataSet[3];
-
-        DataSet ds1 = new DataSet();
-        ds1.add(2);
-        ds1.add(4);
-        ds1.add(6);
-
-        DataSet ds2 = new DataSet();
-        ds2.add(1);
-        ds2.add(3);
-        ds2.add(5);
-
-        DataSet ds3 = new DataSet();
-        ds3.add(10);
-        ds3.add(20);
-
-        datasets[0] = ds1;
-        datasets[1] = ds2;
-        datasets[2] = ds3;
-
-        System.out.println("Average of averages: " + DataSet.calculateAverage(datasets));
+        printl("Fish");
+        printl("Name: " + animal.getName());
+        printl("Age: " + animal.getAge());
+        printl("Dog");
+        printl("Name: " + dog.getName());
+        printl("Age: " + dog.getAge());
+        printl("Breed: " + dog.getBreed());
+        printl("Cat");
+        printl("Name: " + cat.getName());
+        printl("Age: " + cat.getAge());
+        printl("Is indoors? " + cat.getIsIndoor());
     }
 }
